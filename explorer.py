@@ -6,6 +6,8 @@ for fruit in fruits:
 # 2
 for list in range(1,6):
     print(list)
-# print(list(range(1,6)))
 # 3
+for list in range(0,10,2):
+    print(list)
+
     
