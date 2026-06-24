@@ -56,3 +56,8 @@ print(squares_num)
 
 for x in enumerate(squares_num,1):
     print(x)
+# 4
+matrix = [[1,2],[3,4],[5,6]]
+singel_list = [x for y in matrix for x in y]
+print(singel_list)
+
