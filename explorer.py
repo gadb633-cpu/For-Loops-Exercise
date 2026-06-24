@@ -35,6 +35,7 @@ matrix = [[1, 2, 3], [4, 5, 6]]
 for x in matrix:
     for y in x:
         print(y)
-        
-
-    
+# 9
+numbers = [1,2,3,4,5,6,7,8,9,10]
+squares_num = [x**2 for x in numbers]        
+print(squares_num)
