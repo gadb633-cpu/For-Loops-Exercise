@@ -23,7 +23,12 @@ sum = 0
 for number in numbers:
     sum += number
 print(sum)    
+# 7
+i = 1
+while i <= 5:
+    print(i)
+    i += 1
+for x in range(1,6):
+    print(x)
 
-
-    
     
