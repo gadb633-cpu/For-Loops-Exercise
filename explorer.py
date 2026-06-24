@@ -60,4 +60,8 @@ for x in enumerate(squares_num,1):
 matrix = [[1,2],[3,4],[5,6]]
 singel_list = [x for y in matrix for x in y]
 print(singel_list)
+# 5
+words = ["hello", "world", "python"]
+uppercase_words = [x.capitalize() for x in words]
+print(uppercase_words)
 
