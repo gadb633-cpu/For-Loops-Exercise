@@ -30,5 +30,11 @@ while i <= 5:
     i += 1
 for x in range(1,6):
     print(x)
+# 8
+matrix = [[1, 2, 3], [4, 5, 6]]
+for x in matrix:
+    for y in x:
+        print(y)
+        
 
     
