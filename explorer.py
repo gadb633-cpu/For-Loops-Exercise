@@ -17,6 +17,13 @@ scores = {"alpha":80,"bravo":95}
 item = scores.items()
 for score in item:
     print(score)
+# 6
+numbers = [1,2,3,4,5]
+sum = 0
+for number in numbers:
+    sum += number
+print(sum)    
+
 
     
     
