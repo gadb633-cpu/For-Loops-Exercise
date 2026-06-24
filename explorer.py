@@ -39,3 +39,6 @@ for x in matrix:
 numbers = [1,2,3,4,5,6,7,8,9,10]
 squares_num = [x**2 for x in numbers]        
 print(squares_num)
+# 10
+squares_num = [x for x in range(1,21) if x % 2 == 0]
+print(squares_num)        
