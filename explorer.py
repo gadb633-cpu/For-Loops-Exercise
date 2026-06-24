@@ -42,3 +42,10 @@ print(squares_num)
 # 10
 squares_num = [x for x in range(1,21) if x % 2 == 0]
 print(squares_num)        
+# part 2
+# 1
+names = ["Alpha", "Bravo"]
+scores = [80,95]
+
+for name in zip(names,scores):
+    print(name)
