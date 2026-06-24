@@ -9,5 +9,8 @@ for list in range(1,6):
 # 3
 for list in range(0,10,2):
     print(list)
+# 4
+for fruit in enumerate(fruits):
+    print(fruit)    
 
     
