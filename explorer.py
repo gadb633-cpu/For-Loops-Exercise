@@ -52,3 +52,7 @@ for name in zip(names,scores):
 # 2
 squares_num = [(n,n**2) for n in range(1,6)]    
 print(squares_num)
+# 3
+
+for x in enumerate(squares_num,1):
+    print(x)
