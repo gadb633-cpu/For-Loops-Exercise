@@ -12,5 +12,11 @@ for list in range(0,10,2):
 # 4
 for fruit in enumerate(fruits):
     print(fruit)    
+# 5
+scores = {"alpha":80,"bravo":95}
+item = scores.items()
+for score in item:
+    print(score)
 
+    
     
